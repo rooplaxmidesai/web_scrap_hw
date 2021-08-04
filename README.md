@@ -5,13 +5,13 @@
 #### Q.1 Create a python function to scrape Yelp data for 50 restaurants close to you. Think about what data you want to scrape aside from the restaurant name and location. You must pick at least three other fields. You can use beautiful soup, selenium, scrapy, and/or splinter.
 #### Q.2 Create an API that calls your scrape function and stores the data when you call /scrape endpoint. The data you scrape should be viewable when you go to /all .
  - Home page
-    * !['Screenshot1'](./Week22_screenshot_1.PNG?raw=true "Home page")
+    * !['Screenshot1'](./week22_screenshot_1.PNG?raw=true "Home page")
  - A /all endpoint that displays all scraped data
-	* !['Screenshot2'](./Week22_screenshot_2.PNG?raw=true "all endpoint")
+	* !['Screenshot2'](./week22_screenshot_2.PNG?raw=true "all endpoint")
 	- Notice that this has not captured phone number, address and price range. When I tried it earlier it did capture it, below is screen shot od .csv file for that.I am not sure why sometimes the data is not captured.
-	- !['Screenshot4'](./Week22_screenshot_4.PNG?raw=true "all endpoint")
+	- !['Screenshot4'](./week22_screenshot_4.PNG?raw=true "all endpoint")
  - A /scrape endpoint scrapes yelp restaurants 
-    * !['Screenshot3'](./Week22_screenshot_3.PNG?raw=true "scrape endpoint")
+    * !['Screenshot3'](./week22_screenshot_3.PNG?raw=true "scrape endpoint")
 
 ## Week21 Homework Assignment Question 3
 #### Q.3 What is web scraping? Why is it helpful? Why is it sometimes in a legal grey area or just plain illegal?
