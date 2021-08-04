@@ -9,9 +9,9 @@
  - A /all endpoint that displays all scraped data
 	* !['Screenshot2'](./week22_screenshot_2.PNG?raw=true "all endpoint")
 	- Notice that this has not captured phone number, address and price range. When I tried it earlier it did capture it, below is screen shot od .csv file for that.I am not sure why sometimes the data is not captured.
-	- !['Screenshot4'](./week22_screenshot_4.PNG?raw=true "all endpoint")
+	- !['Screenshot4'](./week22_screenshot_4.JPG?raw=true "all endpoint")
  - A /scrape endpoint scrapes yelp restaurants 
-    * !['Screenshot3'](./week22_screenshot_3.PNG?raw=true "scrape endpoint")
+    * !['Screenshot3'](./week22_screenshot_3.png?raw=true "scrape endpoint")
 
 ## Week21 Homework Assignment Question 3
 #### Q.3 What is web scraping? Why is it helpful? Why is it sometimes in a legal grey area or just plain illegal?
