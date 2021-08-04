@@ -12,8 +12,9 @@
 	- !['Screenshot4'](./week22_screenshot_4.JPG?raw=true "all endpoint")
  - A /scrape endpoint scrapes yelp restaurants 
     * !['Screenshot3'](./week22_screenshot_3.png?raw=true "scrape endpoint")
+	- Notice is that it is processing scrape request.
 
-## Week21 Homework Assignment Question 3
+## Week22 Homework Assignment Question 3
 #### Q.3 What is web scraping? Why is it helpful? Why is it sometimes in a legal grey area or just plain illegal?
    - Web scraping is the process of gathering information/extracting data from the Internet. It usually refer to a process that involves automation. Some websites don’t like it when automatic scrapers gather their data, while others don’t mind. 
    - Web scraping can be useful for 
