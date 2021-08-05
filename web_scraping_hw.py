@@ -21,6 +21,13 @@ def echo_hello():
 
 @app.route("/scrape")
 def web_scrape():
+    #Call function
+    scrape_restaurant_details()
+    return redirect(url_for("show_data"))
+
+
+# Scrape 50 yelp restaurants near you
+def scrape_restaurant_details():
     i=0
     restaurant_list = []
     #each page has 10 restaurants. To get 50 restaurants loop thourgh 5 times
@@ -135,7 +142,7 @@ def web_scrape():
     #return render_template('index.html',  tables=[rest_df.to_html(classes='data', header="true")])
     #render template is always looking in tempate folder
     #return "<p>Web Scraping 50 restaurants near me from yelp and storing them in CSV file!</p>"
-    return redirect(url_for("show_data"))
+    #return redirect(url_for("show_data"))
 
 
 @app.route("/all")
